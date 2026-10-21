@@ -1,0 +1,25 @@
+body {
+    background-color: #0D0E12;
+    color: #F3F4F6;
+    font-family: 'Inter', sans-serif;
+}
+.heading-font {
+    font-family: 'Montserrat', sans-serif;
+}
+.gold-glow {
+    box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.25);
+}
+.red-glow-hover:hover {
+    box-shadow: 0 10px 30px -10px rgba(200, 16, 46, 0.4);
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0D0E12;
+}
+::-webkit-scrollbar-thumb {
+    background: #C8102E;
+    border-radius: 4px;
+}
